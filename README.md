@@ -1,1 +1,1 @@
-# This repo contains all my VS Code Settings.
+# This Repo contains all my VS Code Settings.⚙️

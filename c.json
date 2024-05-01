@@ -1,0 +1,33 @@
+{
+  "C Boilerplate Code": {
+    "prefix": "#in",
+    "body": [
+      "#include <stdio.h>",
+      " ",
+      "int main()",
+      "{",
+      "\t$0",
+      "\treturn 0;",
+      "}"
+    ],
+    "description": "Creating the C Boilerplate Code."
+  },
+
+  "C Prinf Simplify": {
+    "prefix": "pf",
+    "body": ["printf(\"$1\", $2);$3"],
+    "description": "Creating the printf function easily."
+  },
+
+  "C Scanf Simplify": {
+    "prefix": "sf",
+    "body": ["scanf(\"$1\", &$2);$3"],
+    "description": "Creating the printf function easily."
+  },
+
+  "Including the math.h file": {
+    "prefix": "math.h",
+    "body": ["#include <math.h>"],
+    "description": "Creating the printf function easily."
+  }
+}
