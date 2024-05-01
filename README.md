@@ -1,3 +1,12 @@
 # This Repo contains all my VS Code Settings.⚙️
 
-## Font Name: JetBrainsMono Nerd Font. [Download](https://objects.githubusercontent.com/github-production-release-asset-2e65be/27574418/c73b35fc-92bd-4850-a79a-ccb86b8069c9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240501%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240501T093547Z&X-Amz-Expires=300&X-Amz-Signature=7d74b0a9f93f7e7cee0d601b25053396ed49fc627fcabe3a322b1559ab80e34e&X-Amz-SignedHeaders=host&actor_id=162937581&key_id=0&repo_id=27574418&response-content-disposition=attachment%3B%20filename%3DJetBrainsMono.zip&response-content-type=application%2Foctet-stream)
+📃 Font Name: JetBrainsMono Nerd Font. [Download](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip)
+
+🧩 Basic Extentions:
+
+1. Fluent Icon.
+2. Symbols.
+3. Prettier.
+4. Learn with Sumit - Peace of the eye.
+5. Code Runner.
+6. C/C++ -> For C and C++ Programming..
