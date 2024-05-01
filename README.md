@@ -1,1 +1,1 @@
-# VS-Code-Setup
+# This repo contains all my VS Code Settings.
