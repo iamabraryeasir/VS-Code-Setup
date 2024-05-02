@@ -20,23 +20,14 @@
   "symbols.hidesExplorerArrows": false,
   "explorer.confirmDelete": false,
   "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
-  "debug.onTaskErrors": "debugAnyway",
-  "cmake.showOptionsMovedNotification": false,
   "window.zoomLevel": 1,
   "workbench.colorTheme": "Learn with Sumit - Peace of the eye",
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "git.ignoreMissingGitWarning": true,
-  "explorer.confirmDragAndDrop": false,
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "extensions.ignoreRecommendations": true,
-  "git.confirmSync": false,
-  "cSpell.ignoreWords": ["Abrar", "Loged"],
   "workbench.productIconTheme": "fluent-icons",
-  "code-runner.runInTerminal": true,
-  "dart.flutterSdkPath": "C:\\flutter",
-  "editor.linkedEditing": true
+  "code-runner.runInTerminal": true
 }
