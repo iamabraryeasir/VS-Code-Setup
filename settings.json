@@ -1,33 +1,80 @@
 {
-  // Editor
-  "workbench.startupEditor": "none",
-  "workbench.iconTheme": "symbols",
-  "editor.mouseWheelZoom": true,
-  "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Fira Code', Consolas, 'Courier New', monospace",
-  "editor.fontSize": 17,
+    // Editor
+    "workbench.startupEditor": "none",
+    "editor.mouseWheelZoom": true,
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontSize": 16,
+    "window.zoomLevel": 1,
+    "editor.linkedEditing": true,
+    
+    // Themes
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "vscode-icons",
+    
 
-  // Cursor
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.cursorBlinking": "expand",
-  "terminal.integrated.fontSize": 16,
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    // Cursor
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
 
-  // Formating Related Settings
-  "editor.formatOnSave": true,
-  "files.autoSave": "afterDelay",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.minimap.enabled": false,
-  "symbols.hidesExplorerArrows": false,
-  "explorer.confirmDelete": false,
-  "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
-  "window.zoomLevel": 1,
-  "workbench.colorTheme": "Learn with Sumit - Peace of the eye",
-  "[c]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
-  "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
-  "workbench.productIconTheme": "fluent-icons",
-  "code-runner.runInTerminal": true
+    // Terminal
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Windows PowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        }
+    },
+
+    // Formatting Related Settings
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.minimap.enabled": false,
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+
+    // C Programming
+    "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+    "code-runner.runInTerminal": true,
+    "prettier.tabWidth": 4,
+    
+    // Python
+    "python.createEnvironment.trigger": "off",
+
+    // Others
+    "extensions.ignoreRecommendations": true,
+    "cSpell.userWords": [
+        "Abrar",
+        "Arik",
+        "Athar",
+        "Chattagram",
+        "Rifah",
+        "Yeasir"
+    ],
+    "files.autoSave": "afterDelay",
+    "[snippets]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
 }
