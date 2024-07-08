@@ -2,15 +2,18 @@
     // Editor
     "workbench.startupEditor": "none",
     "editor.mouseWheelZoom": true,
-    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "'Fira Code' ,'JetBrainsMono Nerd Font', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "normal",
     "editor.fontSize": 16,
     "window.zoomLevel": 1,
     "editor.linkedEditing": true,
-    
+    "editor.formatOnPaste": true,
+
     // Themes
     "workbench.productIconTheme": "fluent-icons",
     "workbench.iconTheme": "vscode-icons",
-    
+    "workbench.colorTheme": "GitHub Dark Dimmed",
 
     // Cursor
     "editor.cursorSmoothCaretAnimation": "on",
@@ -56,7 +59,7 @@
     "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
     "code-runner.runInTerminal": true,
     "prettier.tabWidth": 4,
-    
+
     // Python
     "python.createEnvironment.trigger": "off",
 
@@ -74,7 +77,9 @@
     "[snippets]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "workbench.colorTheme": "GitHub Dark Dimmed",
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.donotShowInfoMsg": true,
+    "code-runner.executorMap": {
+        "c": "cls && cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    }
 }
