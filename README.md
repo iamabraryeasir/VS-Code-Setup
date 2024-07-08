@@ -5,8 +5,8 @@
 🧩 Basic Extentions:
 
 1. Fluent Icon.
-2. Symbols.
+2. VSCode Icon.
 3. Prettier.
-4. Learn with Sumit - Peace of the eye.
+4. Github Theme - (GitHub Dark Dimmed).
 5. Code Runner.
 6. C/C++ -> For C and C++ Programming..
