@@ -2,25 +2,26 @@
     // Editor
     "workbench.startupEditor": "none",
     "editor.mouseWheelZoom": true,
-    "editor.fontFamily": "'Fira Code' ,'JetBrainsMono Nerd Font', Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font','Fira Code', Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
-    "editor.fontWeight": "normal",
-    "editor.fontSize": 16,
+    // "editor.fontWeight": "300",
+    "editor.fontSize": 15,
     "window.zoomLevel": 1,
     "editor.linkedEditing": true,
     "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
 
     // Themes
     "workbench.productIconTheme": "fluent-icons",
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Learn with Sumit - Peace of the eye",
 
     // Cursor
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorBlinking": "expand",
 
     // Terminal
-    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontSize": 15,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "terminal.integrated.defaultProfile.windows": "PowerShell",
     "terminal.integrated.profiles.windows": {
@@ -43,9 +44,6 @@
             "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
         }
     },
-
-    // Formatting Related Settings
-    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.minimap.enabled": false,
     "[c]": {
@@ -70,6 +68,7 @@
         "Arik",
         "Athar",
         "Chattagram",
+        "Loged",
         "Rifah",
         "Yeasir"
     ],
@@ -79,7 +78,7 @@
     },
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.donotShowInfoMsg": true,
-    "code-runner.executorMap": {
-        "c": "cls && cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    "emmet.includeLanguages": {
+        "django-html": "html"
     }
 }
