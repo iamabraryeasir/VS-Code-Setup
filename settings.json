@@ -15,7 +15,6 @@
     // Themes
     "workbench.productIconTheme": "fluent-icons",
     "workbench.iconTheme": "material-icon-theme",
-
     // Cursor
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorBlinking": "expand",
@@ -76,7 +75,9 @@
         "iamabrar",
         "iamabraryeasir",
         "Loged",
+        "MERN",
         "momtaz",
+        "pockemon",
         "Rifah",
         "Sayed",
         "splited",
@@ -93,6 +94,6 @@
         "django-html": "html"
     },
     "explorer.confirmDragAndDrop": false,
-    "files.autoSave": "afterDelay",
-    "workbench.colorTheme": "GitHub Dark Default"
+    "workbench.colorTheme": "GitHub Dark Default",
+    "editor.tabSize": 2
 }
