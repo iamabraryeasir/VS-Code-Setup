@@ -9,18 +9,14 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.wordWrap": "on",
-  "editor.lineHeight": 1.7,
-
-  // Themes
-  "workbench.productIconTheme": "fluent-icons",
-  "workbench.iconTheme": "material-icon-theme",
+  "editor.lineHeight": 1.8,
 
   // Cursor
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "expand",
 
   // Terminal
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 13,
   "terminal.integrated.fontWeight": "300",
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "terminal.integrated.defaultProfile.windows": "PowerShell",
@@ -71,7 +67,6 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "explorer.confirmDragAndDrop": false,
-  "workbench.colorTheme": "Learn with Sumit - Peace of the eye",
   "editor.tabSize": 2,
   "github.copilot.enable": {
     "*": false
@@ -141,5 +136,6 @@
     "spwn": "spwn build",
     "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
     "gleam": "gleam run -m $fileNameWithoutExt"
-  }
+  },
+  "security.workspace.trust.untrustedFiles": "open"
 }
